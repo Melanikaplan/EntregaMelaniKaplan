@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.tipografiaNunito {
+    font-family: "Nunito", sans-serif;
+}
+
+.tipografiaMontserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.fondoSeccion1 {
+    background-color: #f8e8ee; 
+}
+
+.img-inicio {
+  width: 1080px;
+  height: auto;
+}
+
+.colorBordo{
+    color: #810947;
+}
+
+
+/* FLEXBOX */
+.padre-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.enlace-img{
+    display: block;
+    order: -1;
+}
+
+.logoMelka{
+    width: 12%;
+}
