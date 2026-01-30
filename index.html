@@ -4,49 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MELKA | Detalles que emocionan</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">INICIO</a>
-                </li>
-                <li>
-                    <a href="./pages/productos.html">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="./pages/envios.html">ENVIOS</a>
-                </li>
-                <li>
-                    <a href="./pages/quienesSomos.html">QUIENES SOMOS</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">CONTACTO</a>
-                </li>
-            </ul>
+    <header class="header">
+        <div class="container header-flex">
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html" class="logo">MELKA</a>
+                    </li>
+                    <li>
+                        <a href="./pages/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li>
+                        <a href="./pages/envios.html">ENVIOS</a>
+                    </li>
+                    <li>
+                        <a href="./pages/quienesSomos.html">QUIENES SOMOS</a>
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
 
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <h1>Página de Inicio</h1>
-        <div class="fondoSeccion1">
-            <img src="./assets/img/house.png" alt="Imagen casa con cuadros" class="img-inicio">
-            <h2 class="tipografiaMontserrat">DETALLES QUE EMOCIONAN</h2>
-            <p class="tipografiaNunito">Creamos regalos personalizados con fotos y frases, pensados para acompañar
-                momentos especiales.</p>
-        </div>
+
+        <section class="seccion-inicio">
+            <div class="contenedor inicio-contenido">
+                <div class="inicio-texto">
+                    <h1>Detalles que emocionan</h1>
+                    <p>
+                        Creamos regalos personalizados con fotos y frases,
+                        pensados para acompañar momentos especiales.
+                    </p>
+                    <a href="./pages/productos.html" class="btn-ver-productos">
+                        Ver productos
+                    </a>
+                </div>
+
+
+                <div class="inicio-imagen">
+                    <img src="https://via.placeholder.com/500x400" alt="Portarretratos personalizados MELKA">
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-beneficios">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">¿Por qué elegir MELKA?</h2>
+
+
+                <div class="lista-beneficios">
+                    <article class="beneficio">
+                        <img src="https://via.placeholder.com/80" alt="Diseños personalizados">
+                        <h3>Personalizados</h3>
+                        <p>Cada producto se diseña especialmente para vos.</p>
+                    </article>
+
+
+                    <article class="beneficio">
+                        <img src="https://via.placeholder.com/80" alt="Materiales de calidad">
+                        <h3>Calidad</h3>
+                        <p>Usamos materiales duraderos y de excelente calidad.</p>
+                    </article>
+
+
+                    <article class="beneficio">
+                        <img src="https://via.placeholder.com/80" alt="Regalos con emoción">
+                        <h3>Emoción</h3>
+                        <p>Regalos que transmiten recuerdos y sentimientos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="frase">
+            <div class="contenedor">
+                <p>
+                    Un regalo no es solo un objeto, es una historia.
+                </p>
+            </div>
+        </section>
 
 
     </main>
 
-    <footer class="tipografiaMontserrat colorBordo">
-        <h3>Regalos personalizados</h3>
-        <h3>Redes sociales</h3>
+    <footer class="bordo">
+        <div class="contenedor footer-contenido">
+            <div class="footer-info">
+                <h3>MELKA</h3>
+                <p>Regalos personalizados</p>
+            </div>
+
+
+            <div class="footer-redes">
+                <p>Seguinos en redes</p>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
 
